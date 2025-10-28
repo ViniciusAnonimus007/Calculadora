@@ -3,21 +3,24 @@
 <head lang="pt-br">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
   <title>Calculadora</title>
+  
 </head>
 <body>
   <div class="container">
+    <h2>CALCULADORA</h2>
     <div class = "inputs">
-      <input type="text" required>
-      <input type="text" required>
+      <input type="text" placeholder="Digite o primeiro número" id="number1" required>
+      <input type="text" placeholder="Digite o segundo número" id="number2" required>
     </div>
     <div class="operators">
-      <button type="submit">+</button>
-      <button type="submit">-</button>
-      <button type="submit">/</button>
-      <button type="submit">*</button>
+      <button type="submit" class="operator">+</button>
+      <button type="submit" class="operator">-</button>
+      <button type="submit" class="operator">/</button>
+      <button type="submit" class="operator">*</button>
     </div>
-    <button type="submit">ENVIAR<button></button>
+    <button type="submit" id="calculator">ENVIAR</button>
   </div>
 </body>
 </html>
